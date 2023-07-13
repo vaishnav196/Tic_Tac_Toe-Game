@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+background-color: white;
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+   
+
+}
+
+body{
+    background: linear-gradient(lightblue,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    text-align: center;
+   
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+    height: 60px;
+    width: 70px;
+    margin: 5px;
+    font-size: 3rem;
+    border: 1px solid black;
+    text-align: center;
+}
+h1{
+    color: red;
+
+}
+.text{
+    font-size: 25px;
+    color: dodgerblue;
+}
+.reset{
+    margin: 15px ;
+    background-color: rgb(92, 114, 255);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
